@@ -12,4 +12,8 @@ public class ProductController {
         System.out.println("Product controller api triggered...!!");
         return "Welcome to first Jenkins CICD project...!!!!";
     }
+
+    public void printmMessage(){
+        System.out.println("THis code is added with git reset, rebase, and revert pupose.");
+    }
 }
