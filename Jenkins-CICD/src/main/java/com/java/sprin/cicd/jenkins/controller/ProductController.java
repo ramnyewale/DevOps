@@ -9,8 +9,8 @@ public class ProductController {
 
     @GetMapping("/jenkins-application")
     public String getResponse(){
-        System.out.println("Product controller api triggered...!!");
-        return "Welcome to first Jenkins CICD project...!!!!";
+        System.out.println("Product controller api triggered");
+        return "Welcome to first Jenkins CICD project.";
     }
 
     public void printmMessage(){
