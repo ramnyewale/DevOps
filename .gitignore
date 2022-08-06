@@ -1,0 +1,8 @@
+logs/
+main.log
+*.log
+#ignore .class files to commit
+*.class
+
+#ignore ,log files
+*.log
